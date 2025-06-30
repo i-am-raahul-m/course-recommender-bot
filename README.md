@@ -14,16 +14,22 @@ This project empowers learners with fast, relevant suggestions for books and cou
 
 # Tools and Technologies Used:
 
-Here’s the correct and minimal set of tools/libraries based solely on your code:
-Category	Technology / Library
-IDE / Platform	Jupyter Notebook (.ipynb) via Google Colab
-Programming Language	Python
-Document Loading	TextLoader, PyPDFLoader from langchain.document_loaders
-Text Splitting	RecursiveCharacterTextSplitter from langchain.text_splitter
-Embeddings	HuggingFaceEmbeddings from langchain.embeddings
-Vector Store	Chroma from langchain.vectorstores
-Keyword Extraction	google/flan-t5-large via Hugging Face transformers
-LLM for Answering	mistralai/Mistral-7B-Instruct-v0.2 via transformers
-Libraries Used	transformers, torch, pypdf, langchain, langchain-community, langchain-chroma, langchain-text-splitters, transformers, os, bitsandbytes
+IDE: Platform	Jupyter Notebook (.ipynb) via Google Colab
+
+Programming Language: Python
+
+Document Loading: TextLoader, PyPDFLoader from langchain.document_loaders
+
+Text Splitting: RecursiveCharacterTextSplitter from langchain.text_splitter
+
+Embeddings: HuggingFaceEmbeddings from langchain.embeddings
+
+Vector Store: Chroma from langchain.vectorstores
+
+Keyword Extraction: google/flan-t5-large via Hugging Face transformers
+
+LLM for Answering: mistralai/Mistral-7B-Instruct-v0.2 via transformers
+
+Libraries Used: transformers, torch, pypdf, langchain, langchain-community, langchain-chroma, langchain-text-splitters, transformers, os, bitsandbytes
 
 
