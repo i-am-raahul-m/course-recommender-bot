@@ -5,11 +5,17 @@ The Course Recommendation Bot is an AI-powered system designed to help users ide
 
 The goal of the project is to:
 •	Parse and preprocess .txt and .pdf documents containing syllabus and curriculum data.
+
 •	Allow users to input free-form questions describing the subject they want to learn.
+
 •	Extract meaningful keywords from the user query using a pretrained Flan-T5 model.
+
 •	Create a vector store of curriculum chunks using embedding models for efficient retrieval.
+
 •	Re-rank retrieved chunks using a keyword match count heuristic.
+
 •	Provide accurate recommendations using the Mistral-7B-Instruct model.
+
 This project empowers learners with fast, relevant suggestions for books and course materials aligned to their goals.
 
 # Tools and Technologies Used:
